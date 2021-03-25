@@ -1,0 +1,23 @@
+{
+    "name": "yaza/oop_php",
+    "description": "Learn OOP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yaza",
+            "email": "wayan13yasa@gmail.com"
+        }
+    ],
+    "require": {
+        "jenssegers/blade": "^1.4",
+        "illuminate/database": "^8.34",
+        "illuminate/events": "^8.34",
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/",
+            "Core\\" : "core/"
+        }
+    }
+}
